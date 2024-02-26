@@ -1,0 +1,17 @@
+Dictionary set-up:
+	Name/ID
+	ArrayRow1, ArrayRow2, ArrayRow3
+
+A. Manually set up dictionaries for three test-tables (ID: Plade1, Plade2, Plade3)
+	1. Alt: one Array, with indices [0-4],[5-9],[10-14] for rows?
+	
+B. Numbercheck array [1-90]
+	1. Should be possible to reset. Should accept manual input
+
+C. You win! method
+	1. Should return ID and row that won
+	2. Play continues after? Conditions for this
+
+D. Checkloops
+	1. foreach loop over arrayRows, check against NumCheck array
+	2. Break loop on first miss
